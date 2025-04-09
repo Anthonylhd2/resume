@@ -4,137 +4,178 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Anthony's Resume</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <img src="./assets/Profile Pic.png" height="100" alt="Profile Picture" />
-    <h1>Anthony Lahoud</h1>
-    <h2>CS student | Software Engineer</h2>
-    <hr />
-    <h3>Summary</h3>
-    <p>
-      Results-driven Computer Science student (GPA: 3.76) graduating this
-      semester, with one year of experience as a Software Engineer. Skilled in
-      Laravel, PostgreSQL, Flutter, VBA for Excel, and cloud hosting services
-      like Heroku and Neon. Currently delving into the Web Developement world
-      while continuing my Software Engineering role, demonstrating adaptability
-      and strong problem-solving skills in backend and frontend development.
-    </p>
-    <hr />
-    <h3>Skills</h3>
-    <ol>
-      <li>
-        <h4>Computer Skills</h4>
-        <ul>
-          <li>Programming Languages: PHP, C++, C#, python</li>
-          <li>Frameworks & Libraries: Laravel, Flutter, .NET</li>
-          <li>Web Technologies: HTML</li>
-          <li>Databases: PostgreSQL, MS SQL</li>
-          <li>Version Control: Git, GitHub</li>
-          <li>Cloud Hosting & Deployment: Neon, Heroku, GitHub Pages</li>
-        </ul>
-      </li>
-      <li>
-        <h4>Soft Skills</h4>
-        <ul>
-          <li>Teamwork</li>
-          <li>Time Management</li>
-          <li>Communication</li>
-          <li>Multi-Tasking</li>
-        </ul>
-      </li>
-    </ol>
-    <hr />
-    <h3>Experience</h3>
-    <ul>
-      <li>
-        <h4>Software Developer</h4>
+    <!-- The main container -->
+    <main class="dark">
+      <!-- The header container -->
+      <div class="header-container container" id="title-container">
+        <img
+          src="./assets/Profile Pic.png"
+          height="100"
+          alt="Profile Picture"
+          class="pictures"
+          id="AnthonyProfilePicture"
+        />
+        <h1>Anthony Lahoud</h1>
+        <h2>CS student | Software Engineer</h2>
+        <hr />
+      </div>
+
+      <!-- The summary container -->
+      <div class="body-container container" id="summary-container">
+        <h3>Summary</h3>
         <p>
-          Universal Services Inc.
-          <br />
-          Jun 2024-Present
+          Results-driven Computer Science student (GPA: 3.76) graduating this
+          semester, with one year of experience as a Software Engineer. Skilled
+          in Laravel, PostgreSQL, Flutter, VBA for Excel, and cloud hosting
+          services like Heroku and Neon. Currently delving into the Web
+          Developement world while continuing my Software Engineering role,
+          demonstrating adaptability and strong problem-solving skills in
+          backend and frontend development.
         </p>
-        <ul>
-          <li>Developed a Warehouse Management system</li>
+        <hr />
+      </div>
+
+      <!-- The skills container -->
+      <div class="body-container container" id="skills-container">
+        <h3>Skills</h3>
+        <ol>
           <li>
-            Worked in an Agile environment, delivering incremental software
-            updates to meet evolving business needs.
+            <h4>Computer Skills</h4>
+            <ul>
+              <li>Programming Languages: PHP, C++, C#, python</li>
+              <li>Frameworks & Libraries: Laravel, Flutter, .NET</li>
+              <li>Web Technologies: HTML</li>
+              <li>Databases: PostgreSQL, MS SQL</li>
+              <li>Version Control: Git, GitHub</li>
+              <li>Cloud Hosting & Deployment: Neon, Heroku, GitHub Pages</li>
+            </ul>
           </li>
           <li>
-            Transitioned the company from manual processes to a fully digital
-            solution.
+            <h4>Soft Skills</h4>
+            <ul>
+              <li>Teamwork</li>
+              <li>Time Management</li>
+              <li>Communication</li>
+              <li>Multi-Tasking</li>
+            </ul>
           </li>
-          <li>
-            Worked with Laravel, Flutter, PostgreSQL, and cloud hosting servers
-            (Neon techm Heroku).
-          </li>
-        </ul>
-      </li>
-      <li>
-        <h4>Software Developer Intern</h4>
-        <p>
-          Universal Services Inc.
-          <br />
-          Apr 2024-May 2024
-        </p>
-        <ul>
-          <li>Gathered and analyzed requirements.</li>
-          <li>
-            Developed and implemented Excel-based automation using VBA,
-            significantly improving data handling efficiency.
-          </li>
-        </ul>
-      </li>
-      <li>
-        <h4>Game Master and Salesman</h4>
-        <p>
-          Square 51, ABC Dbaye
-          <br />
-          Jul 2022-Jul 2023
-        </p>
+        </ol>
+        <hr />
+      </div>
+
+      <!-- The experience container -->
+      <div class="body-container container" id="experience-container">
+        <h3>Experience</h3>
         <ul>
           <li>
-            Engaged with customers, explaining and facilitating board games.
+            <h4>Software Developer</h4>
+            <p>
+              Universal Services Inc.
+              <br />
+              Jun 2024-Present
+            </p>
+            <ul>
+              <li>Developed a Warehouse Management system</li>
+              <li>
+                Worked in an Agile environment, delivering incremental software
+                updates to meet evolving business needs.
+              </li>
+              <li>
+                Transitioned the company from manual processes to a fully
+                digital solution.
+              </li>
+              <li>
+                Worked with Laravel, Flutter, PostgreSQL, and cloud hosting
+                servers (Neon techm Heroku).
+              </li>
+            </ul>
           </li>
           <li>
-            Managed escape room sessions and ensured a seamless experience.
+            <h4>Software Developer Intern</h4>
+            <p>
+              Universal Services Inc.
+              <br />
+              Apr 2024-May 2024
+            </p>
+            <ul>
+              <li>Gathered and analyzed requirements.</li>
+              <li>
+                Developed and implemented Excel-based automation using VBA,
+                significantly improving data handling efficiency.
+              </li>
+            </ul>
           </li>
           <li>
-            Worked with team members to coordinate game flow and customer
-            service.
+            <h4>Game Master and Salesman</h4>
+            <p>
+              Square 51, ABC Dbaye
+              <br />
+              Jul 2022-Jul 2023
+            </p>
+            <ul>
+              <li>
+                Engaged with customers, explaining and facilitating board games.
+              </li>
+              <li>
+                Managed escape room sessions and ensured a seamless experience.
+              </li>
+              <li>
+                Worked with team members to coordinate game flow and customer
+                service.
+              </li>
+            </ul>
           </li>
         </ul>
-      </li>
-    </ul>
-    <hr />
-    <h3>Education</h3>
-    <ul>
-      <li>
-        <h4>BS-Computer Science</h4>
-        <p>
-          Notre Dame University-Louaize, Zouk Mosbeh
-          <br />
-          2022-2025
-          <br />
-          GPA: 3.76
-        </p>
-      </li>
-      <li>
-        <h4>Lebanese Baccalaureate in General Sciences</h4>
-        <p>
-          College des Frere Mont La Salle, Ain Saade
-          <br />
-          2019-2022
-        </p>
-      </li>
-    </ul>
-    <hr />
-    <h3>Certificates</h3>
-    <ul>
-      <li>2022-2025, Dean's Honor List, Notre Dame University</li>
-      <li>Aug 2024, The Complete SQL Bootcamp: Go from Zero to Hero, Udemy</li>
-      <li>Oct 2023, IEEE Xtreme 24-hour programming competition, IEEE</li>
-      <li>Oct 2024, IEEE Xtreme 24-hour programming competition, IEEE</li>
-    </ul>
-    <hr />
+        <hr />
+      </div>
+
+      <!-- The education container -->
+      <div class="body-container container" id="education-container">
+        <h3>Education</h3>
+        <ul>
+          <li>
+            <h4>BS-Computer Science</h4>
+            <p>
+              Notre Dame University-Louaize, Zouk Mosbeh
+              <br />
+              2022-2025
+              <br />
+              GPA: 3.76
+            </p>
+          </li>
+          <li>
+            <h4>Lebanese Baccalaureate in General Sciences</h4>
+            <p>
+              College des Frere Mont La Salle, Ain Saade
+              <br />
+              2019-2022
+            </p>
+          </li>
+        </ul>
+        <hr />
+      </div>
+
+      <!-- The Certificates container -->
+      <div class="body-container container" id="certificates-container">
+        <h3>Certificates</h3>
+        <ul>
+          <li>2022-2025, Dean's Honor List, Notre Dame University</li>
+          <li>
+            Aug 2024, The Complete SQL Bootcamp: Go from Zero to Hero, Udemy
+          </li>
+          <li>Oct 2023, IEEE Xtreme 24-hour programming competition, IEEE</li>
+          <li>Oct 2024, IEEE Xtreme 24-hour programming competition, IEEE</li>
+        </ul>
+        <hr />
+      </div>
+
+      <!-- The footer container -->
+      <div class="footer-container container" id="end-container">
+        <footer></footer>
+      </div>
+    </main>
   </body>
 </html>
